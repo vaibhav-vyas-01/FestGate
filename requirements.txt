@@ -1,7 +1,0 @@
-streamlit
-pandas
-qrcode[pil]
-opencv-python
-firebase-admin
-Flask
-Werkzeug
