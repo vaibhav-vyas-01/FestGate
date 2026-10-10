@@ -1,0 +1,3 @@
+organizer_id,full_name,email,organization_name,committee_name,designation,phone,password_hash,auth_provider,google_uid,profile_complete,created_at,last_login
+O001,Vaibhav Vyas,vaibhavvyas@atmiyauni.ac.in,Atmiya University,Fest Committee,Lead Coordinator,9876543210,004f2e5df724a9af799de6c62b320b8c97a5eb59c7cd7668327d72d390476196,password,,true,2026-10-10T06:13:44.361707+00:00,2026-10-10T06:13:44.361715+00:00
+O002,Prof. Rajesh Kumar,rajesh.kumar@college.edu,National Institute of Tech,Robotics & AI Club,Faculty Advisor,9812345678,scrypt:32768:8:1$Fj9WMr3ad0EQxErU$95171968c74931cbac64e841f5b7e30709e3d43e5c6769c23d3f342c54d93dcd2d47d7fa90f0166bbc1b041a4b7591c4ae039056e6870b2a95f19b6615fdaab7,password,,true,2026-10-10T06:18:13.121785+00:00,2026-10-10T06:18:13.121785+00:00
