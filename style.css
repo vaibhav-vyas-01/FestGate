@@ -1,0 +1,86 @@
+/* FestGate — Vanilla CSS Design System mirroring the exact reference screenshot */
+:root {
+  --brand-500: #6C5CE7;
+  --brand-600: #5A48DE;
+  --brand-50: #F4F2FF;
+  --brand-100: #EAE6FF;
+  --bg-main: #F4F5F9;
+  --bg-card: #FFFFFF;
+  --text-primary: #1E1B4B;
+  --text-secondary: #8E95A5;
+  --border-subtle: #EDF0F7;
+  --radius-card: 24px;
+  --radius-pill: 9999px;
+  --shadow-soft: 0 10px 30px -5px rgba(28, 39, 60, 0.05);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  background-color: var(--bg-main);
+  color: var(--text-primary);
+  min-height: 100vh;
+}
+
+.festgate-container {
+  display: flex;
+  max-width: 1720px;
+  margin: 0 auto;
+  min-height: 100vh;
+  background-color: #FFFFFF;
+}
+
+/* Sidebar */
+.festgate-sidebar {
+  width: 260px;
+  padding: 28px 20px;
+  border-right: 1px solid var(--border-subtle);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Hero Banner */
+.festgate-hero-banner {
+  background: linear-gradient(135deg, #6246EA 0%, #6C5CE7 50%, #7B61FF 100%);
+  border-radius: 28px;
+  color: #FFFFFF;
+  padding: 36px 40px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 12px 36px -8px rgba(108, 92, 231, 0.3);
+}
+
+/* Stat Cards */
+.festgate-stat-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin-top: 24px;
+}
+
+.festgate-stat-card {
+  background: #FFFFFF;
+  border-radius: 22px;
+  padding: 20px;
+  border: 1px solid var(--border-subtle);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: var(--shadow-soft);
+}
+
+/* Right Analytics Panel */
+.festgate-analytics {
+  width: 320px;
+  padding: 28px 24px;
+  border-left: 1px solid var(--border-subtle);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

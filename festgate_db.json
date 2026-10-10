@@ -1,0 +1,130 @@
+{
+  "events": [
+    {
+      "id": "evt-1",
+      "title": "National Hackathon 2026: Code & Innovate",
+      "category": "TECH",
+      "categoryColor": "#0284C7",
+      "date": "Oct 15, 2026",
+      "time": "09:00 AM - 09:00 PM",
+      "venue": "Innovation Hub Hall A",
+      "capacity": 250,
+      "registeredCount": 198,
+      "checkedInCount": 143,
+      "description": "36-hour sprint bringing student developers together to build AI and Cloud solutions.",
+      "coordinator": {
+        "name": "Dr. Leonardo Samsul",
+        "role": "Fest Lead Mentor",
+        "initials": "LS",
+        "avatarBg": "bg-indigo-500"
+      },
+      "imageGradient": "from-amber-700 via-amber-800 to-slate-900",
+      "imageSrc": "/static/images/event1.jpg"
+    },
+    {
+      "id": "evt-2",
+      "title": "UI/UX Design Masterclass & Sprint",
+      "category": "DESIGN",
+      "categoryColor": "#7C3AED",
+      "date": "Oct 16, 2026",
+      "time": "11:00 AM - 04:00 PM",
+      "venue": "Design Studio Lab 3",
+      "capacity": 150,
+      "registeredCount": 120,
+      "checkedInCount": 88,
+      "description": "Master human-centric interface design, design systems, and rapid interactive prototyping.",
+      "coordinator": {
+        "name": "Bayu Saito",
+        "role": "Creative Lead",
+        "initials": "BS",
+        "avatarBg": "bg-emerald-500"
+      },
+      "imageGradient": "from-slate-800 via-purple-950 to-slate-900",
+      "imageSrc": "/static/images/event2.jpg"
+    },
+    {
+      "id": "evt-3",
+      "title": "Grand Cultural Gala & Band Fest",
+      "category": "CULTURAL",
+      "categoryColor": "#E11D48",
+      "date": "Oct 18, 2026",
+      "time": "05:00 PM - 11:00 PM",
+      "venue": "Main University Amphitheatre",
+      "capacity": 800,
+      "registeredCount": 650,
+      "checkedInCount": 420,
+      "description": "Live stage performances, battle of the bands, dance crew championships, and street food fest.",
+      "coordinator": {
+        "name": "Padhang Satrio",
+        "role": "Cultural Advisor",
+        "initials": "PS",
+        "avatarBg": "bg-amber-600"
+      },
+      "imageGradient": "from-purple-900 via-indigo-900 to-black",
+      "imageSrc": "/static/images/event3.jpg"
+    }
+  ],
+  "attendees": [
+    {
+      "id": "att-1",
+      "ticketCode": "FG-8291-TX",
+      "name": "Padhang Satrio",
+      "rollNo": "CS-2023-049",
+      "email": "padhang.satrio@festgate.edu",
+      "department": "Computer Science",
+      "eventId": "evt-2",
+      "eventTitle": "UI/UX Design Masterclass & Sprint",
+      "eventCategory": "DESIGN",
+      "registeredAt": "2026-10-09 10:14 AM",
+      "status": "CHECKED_IN",
+      "checkedInAt": "2026-10-10 08:30 AM",
+      "checkedInBy": "Gate 1 - Lead",
+      "initials": "PS",
+      "avatarBg": "bg-purple-600"
+    },
+    {
+      "id": "att-2",
+      "ticketCode": "FG-4412-NB",
+      "name": "Bagas Mahpie",
+      "rollNo": "IT-2024-118",
+      "email": "bagas.mahpie@festgate.edu",
+      "department": "Information Tech",
+      "eventId": "evt-1",
+      "eventTitle": "National Hackathon 2026: Code & Innovate",
+      "eventCategory": "TECH",
+      "registeredAt": "2026-10-09 11:45 AM",
+      "status": "CHECKED_IN",
+      "initials": "BM",
+      "avatarBg": "bg-blue-600",
+      "checkedInAt": "2026-10-10 10:20:10 AM",
+      "checkedInBy": "Gate 1 - Lead"
+    },
+    {
+      "id": "att-3",
+      "ticketCode": "FG-9021-CL",
+      "name": "Sir Dandy",
+      "rollNo": "EC-2023-012",
+      "email": "sir.dandy@festgate.edu",
+      "department": "Electronics",
+      "eventId": "evt-3",
+      "eventTitle": "Grand Cultural Gala & Band Fest",
+      "eventCategory": "CULTURAL",
+      "registeredAt": "2026-10-09 01:20 PM",
+      "status": "CHECKED_IN",
+      "checkedInAt": "2026-10-10 09:12 AM",
+      "checkedInBy": "Gate 2 - East Wing",
+      "initials": "SD",
+      "avatarBg": "bg-emerald-600"
+    }
+  ],
+  "gate_logs": [
+    {
+      "ticketCode": "FG-4412-NB",
+      "student": "Bagas Mahpie",
+      "event": "National Hackathon 2026: Code & Innovate",
+      "timestamp": "2026-10-10 10:20:10 AM",
+      "gateStaff": "Gate 1 - Lead",
+      "result": "SUCCESS"
+    }
+  ]
+}
